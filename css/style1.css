@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+/* -----------------Task-1 Css Starts---------------------- */
+.main{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.container1{
+    background-color: #f6cfa4;
+    height: 100%;
+    width: 100%;
+ 
+   
+}
+
+img{
+    height: 400px ;
+    width: auto;
+    margin-left: 300px;
+}
+p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 10px 10px 10px;
+    padding-left: 50px;
+    
+}
+h1{
+    font-weight: 600;
+    margin: 10px 10px 10px 10px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px ;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.button{
+
+    background-color: white#dbc5c5; 
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 250px;
+
+}
+.button2{
+  color: white;
+  background-color: black;
+  padding: 15px;
+  width: 250px;
+  border-radius: 5px;
+
+}
+h4{
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.container2{
+    height: 100%;
+    width: 100%;
+    background-color:  #f6cfa4;
+   
+}
+
+.container3{
+    height: 40%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.footer1 ul li{
+color: rgb(186, 177, 177);
+
+}
+
+
+.footer2 ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+
+.footer2 ul li{
+    color: rgb(219, 205, 205);
+}
+
+.footer2 ul li i{
+  align-items: right; 
+}
+
+/* -----------------Task-1 Css Ends---------------------- */
+
+
+/* -----------------Task-2 Css Starts---------------------- */
+
+.main1{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    background-color: white;
+    height: 75vh ;
+    width:80vw ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.maincontainer .part1{
+    height: 100%t;
+    width:25%;
+    background-color: #ffffff;
+}
+
+.maincontainer .part2{
+    height: 100%;
+    width:80%;
+    background-color: #dae6f6;
+
+}
