@@ -28,18 +28,161 @@ html,body{
     width:80vw ;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
 }
 
 .maincontainer .part1{
     height: 100%t;
     width:25%;
     background-color: #ffffff;
+    
 }
+
+.four{
+    display: flex;
+    align-items: center;
+      
+}
+.four h2{
+    
+   margin-left: 20px;
+   font-weight: 600;
+}
+
+h2{
+    text-align:center;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-right: 10px;
+   
+}
+#gol1{
+
+    height: 80px;
+    width: 80px;
+    background-color: #41e3fa;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+
+}
+
+#gol1 h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:700; 
+    margin-right: 10px; 
+    
+}
+#gol2{
+
+    height: 80px;
+    width: 80px;
+    background-color:  #6692FD;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+    
+
+}
+#gol2 h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:700;  
+    margin-right: 10px;
+}
+#gol3{
+
+    height: 80px;
+    width: 80px;
+    background-color: #F19475;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;  
+    margin-left: 20px;
+
+}
+#gol3 h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:700;  
+    margin-right: 10px;
+}
+#gol4{
+
+    height: 80px;
+    width: 80px;
+    background-color: #F19475;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;  
+    margin-left: 20px;
+
+}
+#gol4 h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight:700;  
+    margin-right: 10px;
+}
+
+.gol5{
+    height: 80px;
+    width: 80px;
+    background-color: #160180;
+    border-radius: 50px;  
+    align-self: flex-end;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gol5 i{
+   
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+
 
 .maincontainer .part2{
     height: 100%;
     width:80%;
     background-color: #dae6f6;
+ 
+}
 
+.section1{
+
+    height:50%;
+    width:100%;
+    background-color: #F19475;
+}
+
+.section2{
+
+    height:50%;
+    width:100%;
+    /* background-color: #4468b0; */
+   
+    
+}
+.section2 h1{
+    text-align: center;
+    margin: 20px;
+}
+.section2 p{
+    text-align: center;
+    margin: 20px;
 }
